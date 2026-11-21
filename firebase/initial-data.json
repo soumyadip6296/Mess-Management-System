@@ -1,0 +1,482 @@
+{
+  "admin": {
+    "admin": {
+      "adminId": 1,
+      "username": "admin",
+      "password": "admin123",
+      "fullName": "Chief Warden",
+      "email": "admin@mess.hostel.edu"
+    },
+    "manager": {
+      "adminId": 2,
+      "username": "manager",
+      "password": "manager123",
+      "fullName": "Mess Supervisor",
+      "email": "manager@mess.hostel.edu"
+    }
+  },
+  "students": {
+    "STU101": {
+      "studentId": "STU101",
+      "name": "Aarav Sharma",
+      "roomNo": "A-201",
+      "contact": "9876543210",
+      "status": "Active",
+      "registeredAt": "2026-09-01 10:00:00"
+    },
+    "STU102": {
+      "studentId": "STU102",
+      "name": "Diya Patel",
+      "roomNo": "B-104",
+      "contact": "9876543211",
+      "status": "Active",
+      "registeredAt": "2026-09-01 10:05:00"
+    },
+    "STU103": {
+      "studentId": "STU103",
+      "name": "Rohan Gupta",
+      "roomNo": "A-305",
+      "contact": "9876543212",
+      "status": "Active",
+      "registeredAt": "2026-09-01 10:10:00"
+    },
+    "STU104": {
+      "studentId": "STU104",
+      "name": "Sneha Roy",
+      "roomNo": "C-102",
+      "contact": "9876543213",
+      "status": "Active",
+      "registeredAt": "2026-09-01 10:15:00"
+    },
+    "STU105": {
+      "studentId": "STU105",
+      "name": "Vikram Singh",
+      "roomNo": "B-208",
+      "contact": "9876543214",
+      "status": "Inactive",
+      "registeredAt": "2026-09-01 10:20:00"
+    },
+    "STU106": {
+      "studentId": "STU106",
+      "name": "Ananya Verma",
+      "roomNo": "C-210",
+      "contact": "9876543215",
+      "status": "Active",
+      "registeredAt": "2026-09-01 10:25:00"
+    }
+  },
+  "menu": {
+    "Monday_Breakfast": {
+      "menuId": 1,
+      "day": "Monday",
+      "mealType": "Breakfast",
+      "items": "Idli, Sambar, Coconut Chutney, Tea/Coffee"
+    },
+    "Monday_Lunch": {
+      "menuId": 2,
+      "day": "Monday",
+      "mealType": "Lunch",
+      "items": "Rice, Dal Tadka, Paneer Butter Masala, Roti, Salad"
+    },
+    "Monday_Dinner": {
+      "menuId": 3,
+      "day": "Monday",
+      "mealType": "Dinner",
+      "items": "Jeera Rice, Rajma, Mixed Veg, Chapati, Kheer"
+    },
+    "Tuesday_Breakfast": {
+      "menuId": 4,
+      "day": "Tuesday",
+      "mealType": "Breakfast",
+      "items": "Poha, Sev, Boiled Eggs / Banana, Tea/Coffee"
+    },
+    "Tuesday_Lunch": {
+      "menuId": 5,
+      "day": "Tuesday",
+      "mealType": "Lunch",
+      "items": "Rice, Yellow Dal, Aloo Gobi, Roti, Curd"
+    },
+    "Tuesday_Dinner": {
+      "menuId": 6,
+      "day": "Tuesday",
+      "mealType": "Dinner",
+      "items": "Veg Pulao, Dal Makhani, Roti, Gulab Jamun"
+    },
+    "Wednesday_Breakfast": {
+      "menuId": 7,
+      "day": "Wednesday",
+      "mealType": "Breakfast",
+      "items": "Aloo Paratha, Curd, Pickle, Tea/Coffee"
+    },
+    "Wednesday_Lunch": {
+      "menuId": 8,
+      "day": "Wednesday",
+      "mealType": "Lunch",
+      "items": "Steamed Rice, Sambar, Bhindi Fry, Roti, Papad"
+    },
+    "Wednesday_Dinner": {
+      "menuId": 9,
+      "day": "Wednesday",
+      "mealType": "Dinner",
+      "items": "Fried Rice, Veg Manchurian / Chilli Chicken, Soup"
+    },
+    "Thursday_Breakfast": {
+      "menuId": 10,
+      "day": "Thursday",
+      "mealType": "Breakfast",
+      "items": "Upma, Coconut Chutney, Fruit Bowl, Tea/Coffee"
+    },
+    "Thursday_Lunch": {
+      "menuId": 11,
+      "day": "Thursday",
+      "mealType": "Lunch",
+      "items": "Rice, Chana Masala, Puri, Boondi Raita, Salad"
+    },
+    "Thursday_Dinner": {
+      "menuId": 12,
+      "day": "Thursday",
+      "mealType": "Dinner",
+      "items": "Khichdi, Kadhi, Aloo Chokha, Papad, Pickle"
+    },
+    "Friday_Breakfast": {
+      "menuId": 13,
+      "day": "Friday",
+      "mealType": "Breakfast",
+      "items": "Masala Dosa, Sambar, Tomato Chutney, Tea/Coffee"
+    },
+    "Friday_Lunch": {
+      "menuId": 14,
+      "day": "Friday",
+      "mealType": "Lunch",
+      "items": "Rice, Dal Fry, Kadai Paneer, Butter Roti, Ice Cream"
+    },
+    "Friday_Dinner": {
+      "menuId": 15,
+      "day": "Friday",
+      "mealType": "Dinner",
+      "items": "Lemon Rice, Egg Curry / Malai Kofta, Chapati, Halwa"
+    },
+    "Saturday_Breakfast": {
+      "menuId": 16,
+      "day": "Saturday",
+      "mealType": "Breakfast",
+      "items": "Bread Omelette / Veg Sandwich, Cornflakes, Milk/Tea"
+    },
+    "Saturday_Lunch": {
+      "menuId": 17,
+      "day": "Saturday",
+      "mealType": "Lunch",
+      "items": "Veg Biryani, Mirchi Ka Salan, Onion Raita, Sweet"
+    },
+    "Saturday_Dinner": {
+      "menuId": 18,
+      "day": "Saturday",
+      "mealType": "Dinner",
+      "items": "Tawa Roti, Dal Palak, Soyabean Curry, Rice"
+    },
+    "Sunday_Breakfast": {
+      "menuId": 19,
+      "day": "Sunday",
+      "mealType": "Breakfast",
+      "items": "Chole Bhature, Lassi / Tea"
+    },
+    "Sunday_Lunch": {
+      "menuId": 20,
+      "day": "Sunday",
+      "mealType": "Lunch",
+      "items": "Special Thali: Pulao, Paneer Tikka Masala, Dal Makhani, Naan, Rasgulla"
+    },
+    "Sunday_Dinner": {
+      "menuId": 21,
+      "day": "Sunday",
+      "mealType": "Dinner",
+      "items": "Light Dinner: Khichdi, Papad, Curd, Seasonal Fruits"
+    }
+  },
+  "attendance": {
+    "STU101_2026-09-01_Breakfast": {
+      "attendanceId": 1,
+      "studentId": "STU101",
+      "date": "2026-09-01",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU101_2026-09-01_Lunch": {
+      "attendanceId": 2,
+      "studentId": "STU101",
+      "date": "2026-09-01",
+      "mealType": "Lunch",
+      "status": "Present"
+    },
+    "STU101_2026-09-01_Dinner": {
+      "attendanceId": 3,
+      "studentId": "STU101",
+      "date": "2026-09-01",
+      "mealType": "Dinner",
+      "status": "Present"
+    },
+    "STU101_2026-09-02_Breakfast": {
+      "attendanceId": 4,
+      "studentId": "STU101",
+      "date": "2026-09-02",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU101_2026-09-02_Lunch": {
+      "attendanceId": 5,
+      "studentId": "STU101",
+      "date": "2026-09-02",
+      "mealType": "Lunch",
+      "status": "Present"
+    },
+    "STU101_2026-09-02_Dinner": {
+      "attendanceId": 6,
+      "studentId": "STU101",
+      "date": "2026-09-02",
+      "mealType": "Dinner",
+      "status": "Absent"
+    },
+    "STU102_2026-09-01_Breakfast": {
+      "attendanceId": 7,
+      "studentId": "STU102",
+      "date": "2026-09-01",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU102_2026-09-01_Lunch": {
+      "attendanceId": 8,
+      "studentId": "STU102",
+      "date": "2026-09-01",
+      "mealType": "Lunch",
+      "status": "Present"
+    },
+    "STU102_2026-09-01_Dinner": {
+      "attendanceId": 9,
+      "studentId": "STU102",
+      "date": "2026-09-01",
+      "mealType": "Dinner",
+      "status": "Present"
+    },
+    "STU102_2026-09-02_Breakfast": {
+      "attendanceId": 10,
+      "studentId": "STU102",
+      "date": "2026-09-02",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU102_2026-09-02_Lunch": {
+      "attendanceId": 11,
+      "studentId": "STU102",
+      "date": "2026-09-02",
+      "mealType": "Lunch",
+      "status": "Absent"
+    },
+    "STU102_2026-09-02_Dinner": {
+      "attendanceId": 12,
+      "studentId": "STU102",
+      "date": "2026-09-02",
+      "mealType": "Dinner",
+      "status": "Present"
+    },
+    "STU103_2026-09-01_Breakfast": {
+      "attendanceId": 13,
+      "studentId": "STU103",
+      "date": "2026-09-01",
+      "mealType": "Breakfast",
+      "status": "Absent"
+    },
+    "STU103_2026-09-01_Lunch": {
+      "attendanceId": 14,
+      "studentId": "STU103",
+      "date": "2026-09-01",
+      "mealType": "Lunch",
+      "status": "Present"
+    },
+    "STU103_2026-09-01_Dinner": {
+      "attendanceId": 15,
+      "studentId": "STU103",
+      "date": "2026-09-01",
+      "mealType": "Dinner",
+      "status": "Present"
+    },
+    "STU103_2026-09-02_Breakfast": {
+      "attendanceId": 16,
+      "studentId": "STU103",
+      "date": "2026-09-02",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU103_2026-09-02_Lunch": {
+      "attendanceId": 17,
+      "studentId": "STU103",
+      "date": "2026-09-02",
+      "mealType": "Lunch",
+      "status": "Present"
+    },
+    "STU103_2026-09-02_Dinner": {
+      "attendanceId": 18,
+      "studentId": "STU103",
+      "date": "2026-09-02",
+      "mealType": "Dinner",
+      "status": "Present"
+    },
+    "STU104_2026-09-01_Breakfast": {
+      "attendanceId": 19,
+      "studentId": "STU104",
+      "date": "2026-09-01",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU104_2026-09-01_Lunch": {
+      "attendanceId": 20,
+      "studentId": "STU104",
+      "date": "2026-09-01",
+      "mealType": "Lunch",
+      "status": "Present"
+    },
+    "STU104_2026-09-01_Dinner": {
+      "attendanceId": 21,
+      "studentId": "STU104",
+      "date": "2026-09-01",
+      "mealType": "Dinner",
+      "status": "Present"
+    },
+    "STU104_2026-09-02_Breakfast": {
+      "attendanceId": 22,
+      "studentId": "STU104",
+      "date": "2026-09-02",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU104_2026-09-02_Lunch": {
+      "attendanceId": 23,
+      "studentId": "STU104",
+      "date": "2026-09-02",
+      "mealType": "Lunch",
+      "status": "Present"
+    },
+    "STU104_2026-09-02_Dinner": {
+      "attendanceId": 24,
+      "studentId": "STU104",
+      "date": "2026-09-02",
+      "mealType": "Dinner",
+      "status": "Present"
+    },
+    "STU101_2026-11-10_Breakfast": {
+      "attendanceId": 26,
+      "studentId": "STU101",
+      "date": "2026-11-10",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU102_2026-11-10_Breakfast": {
+      "attendanceId": 27,
+      "studentId": "STU102",
+      "date": "2026-11-10",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU103_2026-11-10_Breakfast": {
+      "attendanceId": 28,
+      "studentId": "STU103",
+      "date": "2026-11-10",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU104_2026-11-10_Breakfast": {
+      "attendanceId": 29,
+      "studentId": "STU104",
+      "date": "2026-11-10",
+      "mealType": "Breakfast",
+      "status": "Present"
+    },
+    "STU106_2026-11-10_Breakfast": {
+      "attendanceId": 30,
+      "studentId": "STU106",
+      "date": "2026-11-10",
+      "mealType": "Breakfast",
+      "status": "Present"
+    }
+  },
+  "billing": {
+    "STU101_2026-08": {
+      "billId": 1,
+      "studentId": "STU101",
+      "month": "2026-08",
+      "totalMeals": 75,
+      "perMealRate": 50,
+      "amount": 3750,
+      "paidStatus": "Paid",
+      "paidDate": "2026-09-03",
+      "generatedAt": "2026-09-03 10:00:00"
+    },
+    "STU102_2026-08": {
+      "billId": 2,
+      "studentId": "STU102",
+      "month": "2026-08",
+      "totalMeals": 68,
+      "perMealRate": 50,
+      "amount": 3400,
+      "paidStatus": "Paid",
+      "paidDate": "2026-09-05",
+      "generatedAt": "2026-09-03 10:00:00"
+    },
+    "STU103_2026-08": {
+      "billId": 3,
+      "studentId": "STU103",
+      "month": "2026-08",
+      "totalMeals": 80,
+      "perMealRate": 50,
+      "amount": 4000,
+      "paidStatus": "Unpaid",
+      "paidDate": null,
+      "generatedAt": "2026-09-03 10:00:00"
+    },
+    "STU104_2026-08": {
+      "billId": 4,
+      "studentId": "STU104",
+      "month": "2026-08",
+      "totalMeals": 70,
+      "perMealRate": 50,
+      "amount": 3500,
+      "paidStatus": "Unpaid",
+      "paidDate": null,
+      "generatedAt": "2026-09-03 10:00:00"
+    }
+  },
+  "complaints": {
+    "1": {
+      "complaintId": 1,
+      "studentId": "STU101",
+      "category": "Food Quality",
+      "message": "Dinner rice on Wednesday was slightly undercooked.",
+      "status": "Resolved",
+      "resolutionNote": "Notified the head chef to monitor cooking duration.",
+      "createdAt": "2026-09-02"
+    },
+    "2": {
+      "complaintId": 2,
+      "studentId": "STU103",
+      "category": "Cleanliness",
+      "message": "Dining table 4 needs more frequent wiping after peak lunch hours.",
+      "status": "In Progress",
+      "resolutionNote": "Staff scheduled for continuous table sanitization.",
+      "createdAt": "2026-09-10"
+    },
+    "3": {
+      "complaintId": 3,
+      "studentId": "STU104",
+      "category": "Service",
+      "message": "Drinking water dispenser on the 1st floor mess area was empty around 1:30 PM.",
+      "status": "Pending",
+      "resolutionNote": null,
+      "createdAt": "2026-09-15"
+    }
+  },
+  "counters": {
+    "menuId": 21,
+    "attendanceId": 24,
+    "billId": 4,
+    "complaintId": 3
+  }
+}

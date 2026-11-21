@@ -1,0 +1,21 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "admin": {
+      ".indexOn": ["username"]
+    },
+    "students": {
+      ".indexOn": ["status"]
+    },
+    "attendance": {
+      ".indexOn": ["studentId", "date", "mealType"]
+    },
+    "billing": {
+      ".indexOn": ["studentId", "month", "paidStatus"]
+    },
+    "complaints": {
+      ".indexOn": ["studentId", "status"]
+    }
+  }
+}
